@@ -1,7 +1,7 @@
 void PatchHoldToEquipTypes()
 {
 	{
-		REL::Relocation<std::uintptr_t> target{ REL::Offset(0x0203F462) };
+		REL::Relocation<std::uintptr_t> target{ REL::Offset(0x0203D4D2) };
 
 		struct HoldToEquipTypes_Code : Xbyak::CodeGenerator
 		{
